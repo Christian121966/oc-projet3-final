@@ -232,6 +232,8 @@ p.icone-filtres {
     border-radius: 25px;
     padding: 4px 19px;
     color: black;
+    /*width: 50px;*/
+    white-space: nowrap;
 }
 
 .icone-filtres-pepites:hover {
@@ -560,10 +562,14 @@ div.directionRow {
         align-items: center;
       }
 
+      nav img {
+        margin-right: 15px;
+      }
+
       nav a.lien1 {
         display: flex;
         border-top: none;
-        margin-left: -100px;
+        margin-left: 5px;
         float: right;
       }
 
@@ -594,6 +600,10 @@ div.directionRow {
 
       .container {
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
       }
 
       .texte-container {
@@ -604,9 +614,13 @@ div.directionRow {
         display: none;
       }
 
-      .icone-recherche {
+      /*.icone-recherche {
         display: flex;
-      }
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }*/
 
       /*Les filtres*/
 
@@ -624,6 +638,7 @@ div.directionRow {
         width: 48%;
         flex-flow: row wrap;
       }
+
 
       /*information*/
 
