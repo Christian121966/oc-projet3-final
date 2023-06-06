@@ -798,14 +798,93 @@ div.directionRow {
     }
 
      button[type=submit] {
-        width: 15px;
         text-align: center;
+
     }
 
     .fa-solid {
         color: #000;
         margin-left: 25px;
     }
+
+    /*filtres*/
+
+    h2.titre-filtres {
+        margin-bottom: 8px;
+    }
+
+    .icone-filtres-economique {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 14px;
+        margin: 0;
+        gap: 5px;
+        padding: 15px;
+    }
+
+    p.icone-filtres {
+        margin: 0px 10px 0px 0px;
+    }
+
+    .fa-solid.fa-money-bill-wave {
+        margin-left: 0;
+    }
+
+    .icone-filtres-familial {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 14px;
+        margin: 0;
+        padding: 15px;
+    }
+
+    .fa-solid.fa-person {
+        margin-left: 9px;
+    }
+
+    .icone-filtres-romantique {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 14px;
+        margin: 0;
+        padding: 15px;
+    }
+
+    .fa-solid.fa-heart {
+        margin-left: 0px;
+        margin-right: 2px;
+    }
+
+    .icone-filtres-pepites {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 14px;
+        margin: 0;
+        padding: 15px;
+    }
+
+    .fa-solid.fa-fire {
+        margin-left: 0;
+        margin-right: 5px;
+    }
+
+    /*informations*/
+
+    .fa-solid.fa-info {
+        margin-left: 0;
+        color: #0065FC;
+    }
+
+
+
+
+
+
+
 }
 
 
