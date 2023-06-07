@@ -435,6 +435,10 @@ h2 {
     margin-bottom: 5px;
 }
 
+.card-rating .custom-star {
+    color: #F2F2F2;
+}
+
 /*Activités à Marseille*/
 
 .activites {
@@ -548,7 +552,7 @@ div.directionRow {
 
     .main-container {
         padding: 0px;
-        max-width: 767.98px;
+        max-width: 100%;/*a revoir avant de zipper*/
     }
 
     header {
@@ -686,9 +690,8 @@ div.directionRow {
 
     .hebergements-cards .card {
         margin: 0;
-        width: 100%;
+        width: 98%;
         max-height: 5%;
-        /*border-radius: 0;*/
     }
 
     .hebergements-cards img.card {
@@ -696,7 +699,6 @@ div.directionRow {
         max-height: 50%;
         object-fit: cover;
         margin-top: 8px;
-        margin-left: 8px;
     }
 
     .hebergements .populaires {
@@ -818,8 +820,9 @@ div.directionRow {
     }
 
     .fa-solid {
-        color: #000;
-        margin-left: 25px;
+        color: #0065fc;
+        margin-left: -3px;
+
     }
 
     /*filtres*/
