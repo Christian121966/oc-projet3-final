@@ -108,7 +108,6 @@ nav a:hover {
 }
 
 .icone-container {
-    margin-left: 10px;
     display: flex;
     justify-content: center;
     width: 40px;
@@ -117,7 +116,6 @@ nav a:hover {
 .texte-container {
     display: flex;
     align-items: center;
-    margin-left: 25px;
 }
 
 label {
@@ -292,7 +290,7 @@ p.icone-filtres {
 .hebergements-cards img.card {
     object-fit: cover;
     width: 96%;
-    max-height: 40%;
+    max-height: 43%;
     border-radius: 20px 20px 0 0;
     margin: 5px 5px 5px 5px;
 }
@@ -309,7 +307,7 @@ p.icone-filtres {
 }
 
 .hebergements-cards p.card-title {
-    padding-top: 0px;
+    padding: 7px 0 0 8px;
 }
 
 .hebergements-cards div.card-rating {
@@ -317,8 +315,8 @@ p.icone-filtres {
 }
 
 .card-subtitle {
-    margin: 10px 0 0 10px ;
-    padding: 10px;
+    margin: 0px 0 0 10px ;
+    padding: 10px 0px;
     font-size: 16px;
 }
 
@@ -385,7 +383,7 @@ h2 {
 }
 
 .hebergements-cards .card-subtitle {
-    padding: 0;
+    padding-top: 8px;
 }
 
 /****** Populaires ***********/
@@ -909,7 +907,19 @@ div.directionRow {
         color: #0065FC;
     }
 
-    
+    .hebergements-cards {
+        margin-left: 7px;
+        margin-right: 5px;
+    }
+
+    .hebergements-cards img.card {
+        max-width: 96%;
+        margin-top: 5px;
+    }
+
+    .hebergements-cards p.card-title {
+        padding-top: 0;
+    }
 
 
 
