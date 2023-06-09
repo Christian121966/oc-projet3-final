@@ -829,6 +829,10 @@ div.directionRow {
 
     }
 
+    i.fa-solid.fa-location-dot {
+        color: #000;
+    }
+
     .fa-solid {
         color: #0065fc;
         margin-left: -3px;
@@ -904,7 +908,7 @@ div.directionRow {
 
     .fa-solid.fa-info {
         margin-left: 0;
-        color: #0065FC;
+        color: #0065fc;
     }
 
     .hebergements-cards {
@@ -919,6 +923,11 @@ div.directionRow {
 
     .hebergements-cards p.card-title {
         padding-top: 0;
+    }
+
+    p.heb {
+        padding-top: 20px;
+        font-weight: bold;
     }
 
 
