@@ -109,6 +109,9 @@ nav a:hover {
 
 .icone-container {
     margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    width: 40px;
 }
 
 .texte-container {
@@ -143,7 +146,7 @@ button[type="submit"] {
     background-color: #0065FC;
     color: white;
     border-radius: 0px 15px 15px 0px;
-    padding: 0 20px;
+    padding: 0 10px;
     cursor: pointer;
     font-weight: bold;
 }
@@ -629,6 +632,13 @@ div.directionRow {
         position: relative;
       }
 
+      .icone-container {
+        display: flex;
+        justify-content: center;
+        width: 40px;
+        transform: translate(3px, 0);
+      }
+
       .texte-container {
         width: 100%;
       }
@@ -797,7 +807,9 @@ div.directionRow {
     }
 
     .icone-container {
-        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        width: 40px;
     }
 
     .texte-recherche {

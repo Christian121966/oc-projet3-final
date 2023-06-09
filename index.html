@@ -12,6 +12,7 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon-32x32.png" type="image/png">
 </head>
 <body>
     <div class="main-container">
@@ -31,7 +32,7 @@
                     <p>En plein centre-ville ou en pleine nature</p>
                 </div>
                 <!--formulaire de recherche-->
-                <form action="" class="recherche">
+                <form action="#" class="recherche">
                     <div class="container">
                         <div class="icone-container">
                             <i class="fa-solid fa-location-dot"></i>
@@ -51,28 +52,28 @@
                     <h2 class="titre-filtres">Filtres</h2>
                     <ul>
                         <li class="titre">
-                            <span class="icone-filtres-economique">
+                            <div class="icone-filtres-economique">
                                 <i class="fa-solid fa-money-bill-wave"></i>
                                 <p class="icone-filtres">Economique</p>
-                            </span>
+                            </div>
                         </li>
                         <li class="titre">
-                            <span class="icone-filtres-familial">
+                            <div class="icone-filtres-familial">
                                 <i class="fa-solid fa-person"></i>
                                 <p class="icone-filtres">Familial</p>
-                            </span>
+                            </div>
                         </li>
                         <li class="titre">
-                            <span class="icone-filtres-romantique">
+                            <div class="icone-filtres-romantique">
                                 <i class="fa-solid fa-heart"></i>
                                 <p class="icone-filtres">Romantique</p>
-                            </span>
+                            </div>
                         </li>
                         <li class="titre">
-                            <span class="icone-filtres-pepites">
+                            <div class="icone-filtres-pepites">
                                 <i class="fa-solid fa-fire"></i>
                                 <p class="icone-filtres">Nos pépites</p>
-                            </span>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -85,7 +86,7 @@
                 </div>
             </section>
             <!--Hébergements et activités-->
-            <section class="hebergements-and-populaires">
+            <div class="hebergements-and-populaires">
                 <section class="hebergements">
                     <div class="hebergements-title">
                     <h2 id="heberg" class="section-title">Hébergements à Marseille</h2>
@@ -182,7 +183,7 @@
                         </div>
                     </article>
                     </div>
-                                    <p class="heb">Afficher Plus</p>
+                    <p class="heb">Afficher Plus</p>
                 </section>
                 <section class="populaires">
                     <div class="populaires-title">
@@ -207,6 +208,7 @@
                                 </div>
                             </div>
                         </article>
+                    </div>
                         <article class="card">
                             <img src="./images/hebergements/aw-creative.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                             <div class="card-content">
@@ -240,9 +242,9 @@
                                     <span class="sr-only">Note de 4 sur 5</span>
                                 </div>
                             </div>
-                        </article>
+                        </article>    
                 </section>
-            </section>
+            </div>
             <h2 id="activ">Activités à Marseille</h2>
             <section class="activites">
                 <div class="activites-a-marseille">    
@@ -271,6 +273,7 @@
                 </div>
             </section>
         </main>
+    </div>
         <footer>
                 <div class="directionRow">
                     <article>
@@ -289,7 +292,7 @@
                         <p>Centre d'aide</p>
                         <p>Nous contacter</p>
                     </article>
-                </div>
+                </div>            
         </footer>
 </body>
 </html>
