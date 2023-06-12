@@ -384,6 +384,7 @@ h2 {
 
 .hebergements-cards .card-subtitle {
     padding-top: 8px;
+    padding-bottom: 0;
 }
 
 /****** Populaires ***********/
@@ -766,12 +767,12 @@ div.directionRow {
     }
 
     div.activites-a-marseille {
-      width: 100%;
+      width: 97%;
       background-color: white;
     }
 
     div.activites-card img {
-      width: 95%;
+      width: 98%;
       height: 250px;
       object-fit: cover;
       margin-left: 8px;
@@ -807,6 +808,12 @@ div.directionRow {
         width: 97%;
     }
 
+    div.activites-card img {
+        width: 96%;
+    }
+
+
+}
 
 @media (max-width: 320px) {
 
@@ -961,18 +968,6 @@ div.directionRow {
 
 
 }
-
-
-      
-   
-
-
-
-
-
-
-
-
 
 
 
