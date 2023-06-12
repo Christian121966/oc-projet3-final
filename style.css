@@ -634,7 +634,7 @@ div.directionRow {
         display: flex;
         justify-content: center;
         width: 40px;
-        transform: translate(3px, 0);
+        transform: translate(0px, 0);
       }
 
       .texte-container {
@@ -657,6 +657,14 @@ div.directionRow {
       .filtres ul li {
         width: 48%;
         flex-flow: row wrap;
+      }
+
+      p.icone-filtres {
+        margin-left: 2px;
+      }
+
+      .icone-filtres-economique {
+        padding-left: 5px;
       }
 
 
@@ -856,7 +864,7 @@ div.directionRow {
     }
 
     p.icone-filtres {
-        margin: 0px 10px 0px 0px;
+        margin-left: 0;
     }
 
     .fa-solid.fa-money-bill-wave {
